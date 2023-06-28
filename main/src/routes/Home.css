@@ -1,0 +1,32 @@
+body {
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav {
+  display: flex; /* 네비게이션 바를 가로로 배치하는 속성 */
+  justify-content: space-around; /* 카테고리를 가로로, 센터로 위치 시키는 속성 */
+  background-color: #333;
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* 카테고리를 가로로 배치하는 속성 */
+  align-items: center; /* 카테고리를 수직으로 중앙에 배치하는 속성 */
+}
+
+nav li {
+  margin: 0 10px;
+}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
