@@ -16,7 +16,7 @@ function Home() {
               <Link to="/Bmi">BMI Test</Link>
             </li>
             <li>
-              <Link to="">Map</Link>
+              <Link to="/Map">Map</Link>
             </li>
             <li>
               <Link to="">Search</Link>

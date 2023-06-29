@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./components/About";
 import Bmi from "./components/BMItest";
+import Map from "./components/Map";
 function App() {
   return (
     <BrowserRouter>
@@ -10,6 +11,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Bmi" element={<Bmi />} />
+        <Route path="/Map" element={<Map />} />
       </Routes>
     </BrowserRouter>
   );
