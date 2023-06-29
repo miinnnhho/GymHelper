@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import './Home.css';
+import "./Home.css";
 function Home() {
   return (
     <div>
@@ -13,13 +13,13 @@ function Home() {
               <Link to="/About">About</Link>
             </li>
             <li>
-            <Link to="">BMI Test</Link>
+              <Link to="/Bmi">BMI Test</Link>
             </li>
             <li>
-            <Link to="">Map</Link>
+              <Link to="">Map</Link>
             </li>
             <li>
-            <Link to="">Search</Link>
+              <Link to="">Search</Link>
             </li>
           </ul>
         </nav>
