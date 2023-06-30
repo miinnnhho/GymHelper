@@ -23,9 +23,9 @@ function About() {
       <div>
         <section className="hidden">
           <h1>저는요.</h1>
-          <p>
-            혼자 운동을 하며 궁금하거나, 모르는 게 있을 순간을 위해 탄생했어요!
-          </p>
+         
+          <h3>여러분들의 운동을 도와드릴 '짐헬퍼'입니다.</h3>
+         
         </section>
 
         <section className="hidden">
@@ -66,8 +66,6 @@ function About() {
         <section className="hidden">
           <h2>같이 화이팅 해봐요!</h2>
         </section>
-
-        <div className="moveTopBtn">맨 위로</div>
       </div>
     </div>
   );

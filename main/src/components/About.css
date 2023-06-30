@@ -13,17 +13,17 @@ section {
   display: grid;
   place-items: center;
   align-content: center;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 /* show */
 /* 주석 처리한 건 글 옆에서 중앙으로 오는 모션(필요시 쓸 것) */
-.hidden {
+/* .hidden {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
   transition: all 2.1s;
-}
+} */
 
 .show {
   opacity: 1;
